@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decadent Rolls</title>
+     <!-- Bootstrap CSS -->
+    
+<!-- build:css css/main.css -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+<link rel="stylesheet" href="css/styles.css" />
+ <!-- endbuild -->
+
+
+<!-- Additional CSS must be placed after Bootstrap CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    
+</head>
+<body>
+    <!--navbar comes first to take you to each page of the site-->
+    <!--Navbar HERE-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="decadentNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="decadentsNavbar">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Help</a></li>
+
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#yourCartModal">
+                        <i class="fas fa-shopping-cart"></i></i>Your Cart
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="col">
+        <h1>DECADENT ROLLS</h1>
+        <h3>Made From the Heart</h3>
+    </div>
+    <div container>
+        div class="pictures" id="#homeImagesSmall">
+        <!--small pic preview-->
+        <img class="fluid" src="" alt="Original Cinnamon Roll" height="132" width="162" />
+        <img class="fluid" src="" alt="Person Enjoying Cinnamon Roll" height="132" width="162" />
+        <img class="fluid" src="" alt="Dripping Icing" height="132" width="162" />
+    </div>
+    <!--This button will take you to the Shop page-->
+    <button id="homeShopbtn">Shop Now</button>  
+    <!-- I want a thin white line under this button -->  
+
+    </div>
+    <div container id="featuredProducts">
+        <!-- carousel showing the food with labels under each picture -->
+        <h2>Featured Products</h2>
+            <div col-10>
+                <img class="fluid" src="" alt="Original Cinnamon Roll" height="259" width="436"  /> 
+                <label text-white>ORIGINAL CINNAMON ROLL</label>
+                <label id="carouselLabel">$30 PER DOZEN</label>
+                <img class="fluid" src="" alt="Red Velvet Roll" height="259" width="436" /> 
+                <label text-white>RED VELVET ROLL</label>
+                <label id="carouselLabel">$33 PER DOZEN</label>
+                <img class="fluid" src="" alt="Birthday Sprinkles" height="259" width="436" />
+                <label text-white>BIRTHDAY SPRINKLES</label>
+                <label id="carouselLabel">$35 PER DOZEN</label>
+                <img class="fluid" src=""alt="Oreo roll" height="259" width="436" />
+                <label text-white>OREO ROLL</label>
+                <label id="carouselLabel">$33 PER DOZEN</label>
+                <img class="fluid" src="" alt="Cookie Monster Roll" height="259" width="436" />
+                <label text-white>COOKIE MONSTER ROLL</label>
+                <label id="carouselLabel">$35 PER DOZEN</label>
+        <!--auto rotate with pause button overlay and function needed in javascript-->
+    </div>    
+    <div col-6 id="birthdayClubdiv">
+        <h2>Join the Birthday Club</h2>
+            <p>Join the Birthday Club to receive shopping discounts on your birthday!  ALso, look for a 15% discount on your third order.</p>
+    </div>
+    <div col-6 id="birthdayClubButtons">
+        <button type="input" col-sm-3 placeholder="Email address">Email Address</button>
+        <button btn btn-warning col-sm-2>Subscribe</button>
+    </div>
+    <div id="rollDisplay">
+        <!--first pic will be largest-->
+        <img class="fluid" src="" alt="Cinnamon Roll" height="303" width="273" />
+        <label>Cinnamon Roll</label>
+        <img class="fluid" src="" alt="Red Velvet Roll" height="110" width="271" />
+        <label>Red Velvet Roll</label>
+        <img class="fluid" src="" alt="Oreo Roll" height="110" width="271" />
+        <label>Oreo Roll</label>
+        <img class="fluid" src="" alt="Cookie Monster Roll" height="110" width="271" />
+        <label>Cookie Monster Roll</label>
+        <img class="fluid" src="" alt="Birthday Sprinkles" height="110" width="271" />
+        <label>Birthday Sprinkles</label>
+
+    </div>
+    <div col-8 id="shopPromotion">
+        <!-- I want a pink heart shaped icon above -->
+        <i class="fas fa-heart"></i>
+        <h2>About Our Shop</h2>
+        <p>We make sure that each decadent roll is made with the highest quality ingredients which will remind you of those fresh-baked deserts from your grandma's kitchen.  Most of all, they're made with love.</p>
+    </div>
+</div>
+</div>
+<footer>
+    <!--footer show link you to the pages-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-2" offset-1>
+                <h5>Main Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="contactus.html">Help</a></li>
+                    </ul>
+            </div>
+            <div class="col-6 col-sm-5 text-center">
+                <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>  
+ <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+         <!-- build:js js/main.js -->
+         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+         <script src="js/scripts.js"></script>
+          <!-- endbuild -->  
+</body>
+</html>

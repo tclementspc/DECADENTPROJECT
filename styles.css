@@ -1,0 +1,65 @@
+.navbar {
+    color: white;
+    font-family: "Source Sans Pro", sans serif;
+    font-size: 16px;
+    background-color: #3d131f;
+}
+#yourCart {
+    color: white;
+    background-color: #f06e9c;
+}
+h1 {
+    color: #f06e9c;
+    font-family: Sansita Swashed, sans serif;
+    font-size: 36px;
+}
+#homeShopbtn {
+    color: #f06e9c;
+    font-size: 18px;
+    background-color: white;
+}
+h2 {
+    color: #f06e9c;
+    font-style: Ledger;
+}
+
+#homeImagesSmall {
+    padding-right:10px;
+    background-color: #3d131f;
+}
+h3 {
+    color: #f06e9c;
+}
+#courselLabel {
+    font-family: Source Sans;
+    font-size: 18px;
+    color: #f06e9c;
+}
+#birthdayClubdiv {
+    color: #f06e9c;
+    font-family: Lato, sans serif;
+    background-color: white;
+    font-size: 40px;
+}
+#shopPromotion, h2 {
+    font-family: Lato;
+    color: #f4eb49;
+}
+#rollDisplay {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    color: white;
+    background-color: #3d131f;
+}
+#featuredProducts {
+    background-color: #3d131f;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+} 
+p {
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+}
