@@ -3,7 +3,7 @@
     color: white;
     font-family: "Source Sans Pro", sans serif;
     font-size: 16px;
-    background-color: #dd114b;
+    background-color: #55071d;
 }
 header {
     color: #f06e9c;
@@ -51,7 +51,6 @@ h3 {
     color: #f06e9c;
 }
 .birthdayClubDiv {
-
     color: #f06e9c;
     font-family: Lato, sans serif;
     font-size: 40px;
@@ -104,14 +103,9 @@ header {
     margin-top: 100px;
     color:#f06e9c
 }
-figcaption {
-    font-family: Source Sans Pro, sans serif;
-    color: f06e9c;
-    font-size: 18px;
-}
 h3 {
     font-family: Sansita Swashed, Sansita, sans serif;
-    color: f06e9c;
+    color: #f06e9c;
     font-size: 36px;
 }
 #shopPhotos {
@@ -161,8 +155,10 @@ span {
 .image-title {
     width: 50px;
     display: inlne-block;
+    justify-content: center;
 }
 .thumbnail {
     width: 50px;
     display: block;
+    vertical-align: text-bottom;
 }

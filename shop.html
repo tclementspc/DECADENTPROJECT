@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decadent Shop</title>
+     <!-- Bootstrap CSS -->
     
+<!-- build:css css/main.css -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+<link rel="stylesheet" href="css/styles.css" />
+ <!-- endbuild -->
+
+
+<!-- Additional CSS must be placed after Bootstrap CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
 </head>
 <body> 
@@ -13,53 +25,53 @@
     <!--Navbar HERE-->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="decadentsNavbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="decadentNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="decadentsNavbar">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="decadentNavbar">
+                <ul class="navbar-nav ml-auto">
 
-                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
-                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i>Shop</a></li>
                     <li class="nav-item"><a class="nav-link" href="product.html"><i class="fa fa-list fa-lg"></i> Products</a></li>
                     <li class="nav-item"><a class="nav-link" href="help.html"><i class="fa fa-address-card fa-lg"></i> Help</a></li>
 
                 </ul>
-                <span class="navbar-text ml-auto">
+                <span class="navbar-text mr-auto">
                     <a role="button" data-toggle="modal" data-target="#yourCartModal">
-                        <i class="fas fa-shopping-cart"></i>Your Cart
+                        <i class="fa fa-shopping-cart"></i>Your Cart
                     </a>
                 </span>
             </div>
         </div>
     </nav>
+
     <div class="title">
         <h1>Delicious rolls are on the way!</h1>
     </div>
     <div class="input-group">
         <form class="form-inline active-pink-3 active-pink-4">
             <i class="fa fa-search"></i>
-            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" id="submitShopbtn"
+            <input class="form-control form-control-sm ml-4 w-75" type="text" placeholder="Search" id="submitShopbtn"
               aria-label="Search">
         </form>
             <input class="btn btn-light" type="submit" value="submit" id="submitShopbtn">
     </div>
     <header>
-        <h2><span class="featuredCat">Featured Categories</span></h2>
+        <h1><span class="featuredCat">Featured Categories</span></h1>
             <p><strong>We sell our delicious rolls by the half-dozen, dozen or select our party pack of 4 dozen-1dozen of each of your selected flavors.</strong></p>   
     </header>
     <div class="shopPhotos">
         <figure>
-            <img class="fluid" src="img/BestCinnamonRolls.jpg" alt="pics of cinnamon rolls" width="144" height="auto" />
+            <img class="fluid" src="img/dozenrolls.jpg" alt="pics of cinnamon rolls" width="144" height="auto" />
                 <figcaption>DOZEN<figcaption>
         </figure>
         <figure>
-            <img class="fluid" src="img/enjoyingroll.jpg" alt="pics of child enjoying cinnamon rolls" width="144" height="auto" />
-                <figcaption>HALF DOZEN</figcaption>
+            <img class="fluid" src="img/Birthday-Cake-Batter-Cinnamon-Rolls.jpg" alt="pics of child enjoying cinnamon rolls" width="144" height="auto" />
+                <figcaption>HALF-DOZEN</figcaption>
         </figure> 
         <figure>  
-            <img class="fluid" src="img/originalcinnamon.jpg" alt="pics of cinnamon rolls" width="144" height="auto"   />
+            <img class="fluid" src="img/assortedrolls.jpg" alt="pics of cinnamon rolls" width="144" height="auto"   />
                 <figcaption>PARTY PACK</figcaption>
         </figure>     
         <button class="shoppingNow" id="shopNow"><strong>Shop Now</strong></button>
@@ -70,31 +82,37 @@
         <h2>Birthday Club</h2>
     </div>
     <!--input email and click join button to receive e-coupon discount. Join button will only activate when you enter a valid email address-->
-    <div>
-        <label for="email" role="birthdayClub">Enter your email for birthday discounts</label>
-        <input type="email" id="email" size="30" required>
+
+        <input type="email" id="email" size="30" placeholder="Enter your email for birthday discounts" required>
         <button>JOIN</button>
-    </div>
     <div class="container">
-        <div class="row-align-items-left col-3">
+        <div class="col-3">
             <!--I want h3, p and button to be a small div that is left justified-->
             <h3>Fresh.Flavorful.Delivered.</h3>
                 <p>Decadent Rolls is here to brighten your day with fresh, flavorful goodness that reminds you of home.  Enjoy them for breakfast, lunch or dinner.</p>               
         </div>
-        <div class="row-align-items-left col-2">
-            <button type="button" class="btn btn-light" id="browseButton">Browse All</button> 
+        <div class="row">
+            <div class="col-3">
+                <button type="button" class="btn btn-warning" id="browseButton">Browse All</button> 
             <!--I want the browse button to go back to the shop page showing pics of all the rolls-->
-        </div>           
-    </div>
+            </div>           
+        </div>
     <div container>
-        <div class="col-sm-9">
+        <div class="col-12">
             <!--I want to put images with text desciptions to the right of each image-->
             <img class="fluid" src="img/BestCinnamonRolls.jpg" alt="cinnamon roll" width="111" height="auto" />
-            <img class="fluid" src="img/betterredvelvet.jpg" alt="red velvet roll" width="111" height="auto" />
+            <img class="fluid" src="img/Bestredvelvet.jpg" alt="red velvet roll" width="111" height="auto" />
             <img class="fluid" src="img/betterbirthday.jpg" alt="birthday sprinkles" width="111" height="auto" />
             <img class="fluid" src="img/betteroreo.jpg" alt="oreo roll" width="111" height="auto" />
             <img class="fluid" src="img/goodcookiemonster.jpg" alt="cookie monster roll" width="111" height="auto" />
        </div> 
     </div>
-</body>
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+         <!-- build:js js/main.js -->
+         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+         <script src="js/scripts.js"></script>
+          <!-- endbuild -->  
+    </body>
 </html>
