@@ -152,11 +152,17 @@ span {
 }
 .right-div {
         float: left;
-        margin-left: 108px;
 }
-img {
-    float: left;
-}
-figure {
+
+.div-example {
+    width: 50px;
     display: inline-block;
+}
+.image-title {
+    width: 50px;
+    display: inlne-block;
+}
+.thumbnail {
+    width: 50px;
+    display: block;
 }

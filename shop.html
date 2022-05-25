@@ -19,11 +19,11 @@
             <div class="collapse navbar-collapse" id="decadentsNavbar">
                 <ul class="navbar-nav">
 
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a>
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>Shop</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Product</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Help</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i>Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html"><i class="fa fa-list fa-lg"></i> Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="help.html"><i class="fa fa-address-card fa-lg"></i> Help</a></li>
 
                 </ul>
                 <span class="navbar-text ml-auto">
@@ -39,7 +39,7 @@
     </div>
     <div class="input-group">
         <form class="form-inline active-pink-3 active-pink-4">
-            <i class="fas fa-search" aria-hidden="true"></i>
+            <i class="fa fa-search"></i>
             <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" id="submitShopbtn"
               aria-label="Search">
         </form>
@@ -51,27 +51,28 @@
     </header>
     <div class="shopPhotos">
         <figure>
-            <img class="fluid" src="" alt="pics of cinnamon rolls" width="144" height="196"   />
+            <img class="fluid" src="img/BestCinnamonRolls.jpg" alt="pics of cinnamon rolls" width="144" height="auto" />
                 <figcaption>DOZEN<figcaption>
         </figure>
         <figure>
-            <img class="fluid" src="img/enjoyingroll.jpg" alt="pics of child enjoying cinnamon rolls" width="144" height="196" />
+            <img class="fluid" src="img/enjoyingroll.jpg" alt="pics of child enjoying cinnamon rolls" width="144" height="auto" />
                 <figcaption>HALF DOZEN</figcaption>
         </figure> 
         <figure>  
-            <img class="fluid" src="img/originalcinnamon.jpg" alt="pics of cinnamon rolls" width="144" height="196"   />
+            <img class="fluid" src="img/originalcinnamon.jpg" alt="pics of cinnamon rolls" width="144" height="auto"   />
                 <figcaption>PARTY PACK</figcaption>
         </figure>     
         <button class="shoppingNow" id="shopNow"><strong>Shop Now</strong></button>
     </div>
     <div col-sm-8>
         <!--I want to put a birthday cake icon in front of the words in h2-->
-        <i class="fas fa-birthday-cake"></i>
+        <i class="fa fa-birthday-cake"></i>
         <h2>Birthday Club</h2>
     </div>
-    <!--input email and click join button to receive e-coupon discount. Join button will ask for your birthday-->
-    <div class="inputBox">    
-        <input type="email" placeholder="Enter your email address for birthday discounts." />
+    <!--input email and click join button to receive e-coupon discount. Join button will only activate when you enter a valid email address-->
+    <div>
+        <label for="email" role="birthdayClub">Enter your email for birthday discounts</label>
+        <input type="email" id="email" size="30" required>
         <button>JOIN</button>
     </div>
     <div class="container">
@@ -88,11 +89,11 @@
     <div container>
         <div class="col-sm-9">
             <!--I want to put images with text desciptions to the right of each image-->
-            <img class="fluid" src="img/oreorolls.jpg" alt="cinnamon roll" width="111" height="84" />
-            <img class="fluid" src="img/redvelvet.jpg" alt="red velvet roll" width="111" height="84" />
-            <img class="fluid" src="img/Birthday-Cake-Batter-Cinnamon-Rolls.jpg" alt="birthday sprinkles" width="111" height="84" />
-            <img class="fluid" src="img/oreorolls.jpg" alt="oreo roll" width="111" height="84" />
-            <img class="fluid" src="img/newcookiemonstercookies.jpg" alt="cookie monster roll" width="111" height="84" />
+            <img class="fluid" src="img/BestCinnamonRolls.jpg" alt="cinnamon roll" width="111" height="auto" />
+            <img class="fluid" src="img/betterredvelvet.jpg" alt="red velvet roll" width="111" height="auto" />
+            <img class="fluid" src="img/betterbirthday.jpg" alt="birthday sprinkles" width="111" height="auto" />
+            <img class="fluid" src="img/betteroreo.jpg" alt="oreo roll" width="111" height="auto" />
+            <img class="fluid" src="img/goodcookiemonster.jpg" alt="cookie monster roll" width="111" height="auto" />
        </div> 
     </div>
 </body>
