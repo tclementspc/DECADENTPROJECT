@@ -1,15 +1,18 @@
-.navbar {
+
+.navbar-dark {
     color: white;
     font-family: "Source Sans Pro", sans serif;
     font-size: 16px;
-    background-color: #3d131f;
+    background-color: #dd114b;
 }
 header {
     color: #f06e9c;
+    padding-bottom: 100px;
 
 }
 #motto {
     color: #f06e9c;
+    
 }
 #yourCart {
     color: white;
@@ -17,8 +20,10 @@ header {
     font-style: Source Sans Pro, sans serif;
     font-size: 16px;
 }
-.homeImages {
-    background-color: #3d131f
+#homeImages {
+    background-color: #3d131f;
+    padding-right: 20px;
+    padding-bottom: 80px;
 }
 
 #homeShopbtn {
@@ -35,6 +40,7 @@ h2 {
 #homeImagesSmall {
     padding-right:10px;
     background-color: #3d131f;
+    
 }
 h3 {
     color: #f06e9c;
@@ -61,13 +67,11 @@ h3 {
     font-size: 16px;
     color: white;
     background-color: #3d131f;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 #featuredProducts {
     background-color: #3d131f;
-}
-.img-fluid {
-    max-width: 100%;
-    height: auto;
 } 
 p {
     color: white;
@@ -79,4 +83,80 @@ p {
 }
 .carouselSlide {
     background-color: #3d131f;
+}
+header {
+    font-family: Limelight;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submitShopbtn {
+    background-color: #f06e9c;
+    color: 3d131f;
+}
+#inputShopbtn {
+    background-color: red; 
+    color: #f06e9c;
+    font-size: 20px;
+}
+#shopNowbtn {
+    margin-top: 100px;
+    color:#f06e9c
+}
+figcaption {
+    font-family: Source Sans Pro, sans serif;
+    color: f06e9c;
+    font-size: 18px;
+}
+h3 {
+    font-family: Sansita Swashed, Sansita, sans serif;
+    color: f06e9c;
+    font-size: 36px;
+}
+#shopPhotos {
+    padding-right: 8px;
+}
+#browseButton {
+    padding: white;
+    color: f06e9c;
+    font-family: Source Sans Pro, sans serif;
+    font-size: 18px;
+}
+.inputBox {
+    color: 3d131f;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+}
+span {
+    font-family: Lato, sans serif;
+    font-size: 40px;
+    color: #f06e9c;
+}
+.home-images {
+    max-width: 100%;
+    height: auto;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+.title {
+    color: white;
+    font-style: Lustria;
+    background-color:#3d131f;
+} 
+.carousel-caption {
+    color:#f06e9c;
+}
+.left-div {
+    float: left;
+}
+.right-div {
+        float: left;
+        margin-left: 108px;
+}
+img {
+    float: left;
+}
+figure {
+    display: inline-block;
 }
