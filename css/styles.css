@@ -7,6 +7,7 @@ body {
 }
 h6 {
     color: white;
+    padding-bottom: 20px;
 }
 
 .navbar-dark { 
@@ -19,14 +20,25 @@ header {
     color: #f06e9c;
     padding-bottom: 100px;
 }
+#return {
+    color: white;
+}
 
 .birthday {
     color: #f06e9c;
     text-align: center;
 }
+.heart {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
 #motto {
     color: #f06e9c;
+    padding-bottom: 60px;]
     
+}
+#firstpic {
+    padding-top: 40px;
 }
 #yourCart {
     color: white;
@@ -141,6 +153,7 @@ span {
     font-family: Lato, sans serif;
     /* font-size: 14px; */
     color: #f06e9c;
+    padding-top: 70px;
 }
 .home-images {
     max-width: 100%;
@@ -152,6 +165,7 @@ span {
     color: white;
     font-style: Lustria;
        background-color:#3d131f;
+       padding-bottom: 30px;
 }
 h5 {
     color: #f06e9c;;
@@ -190,4 +204,13 @@ h5 {
     width: 300px;
     display: block;
     vertical-align: text-bottom;
+}
+.slogan {
+    color: #f06e9c;
+}
+#decadentslogan {
+    padding-top: 30px;
+}
+#birthdayicon {
+    padding-top: 20px;
 }

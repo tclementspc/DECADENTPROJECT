@@ -60,22 +60,22 @@
         <h1 class="text-center"><span class="featuredCat">Featured Categories</span></h1>
             <h6 class="text-center"><strong>We sell our delicious rolls by the half-dozen, dozen or select our party pack of 4 dozen-1dozen of each of your selected flavors.</strong></h6>   
     
-    <div class="shopPhotos">
-        <figure>
-            <img class="fluid" src="img/dozenrolls.jpg" alt="pics of cinnamon rolls" width="144" height="auto" />
-                <figcaption>DOZEN<figcaption>
-        </figure>
-        <figure>
-            <img class="fluid" src="img/Birthday-Cake-Batter-Cinnamon-Rolls.jpg" alt="pics of child enjoying cinnamon rolls" width="144" height="auto" />
-                <figcaption>HALF-DOZEN</figcaption>
-        </figure> 
-        <figure>  
-            <img class="fluid" src="img/assortedrolls.jpg" alt="pics of cinnamon rolls" width="144" height="auto"   />
-                <figcaption>PARTY PACK</figcaption>
-        </figure>     
+    <div class="div-example">
+            <img class="thumbnail" src="img/dozenrolls.jpg" alt="pics of cinnamon rolls" />
+                <p class="image-title">DOZEN</p>>
+    </div>
+    <div class="div-example">
+            <img class="thumbnail" src="img/Birthday-Cake-Batter-Cinnamon-Rolls.jpg" alt="pics of child enjoying cinnamon rolls" />
+                <p class="image-title">HALF-DOZEN</p>
+    </div> 
+    <div class="div-example">  
+            <img class="thumbnail" src="img/assortedrolls.jpg" alt="pics of cinnamon rolls"  />
+                <p class="image-title">PARTY PACK</p>
+    </div>
+    <div class="div-example">     
         <button class="shoppingNow" id="shopNow"><strong>Shop Now</strong></button>
     </div>
-    <div col-sm-8>
+    <div class="text-center" id="birthdayicon">
         <!--I want to put a birthday cake icon in front of the words in h2-->
         <i class="fa fa-birthday-cake"></i>
         <h2>Birthday Club</h2>
@@ -84,10 +84,10 @@
 
         <input type="email" id="email" size="30" placeholder="Enter your email for birthday discounts" required>
         <button>JOIN</button>
-    <div class="container">
-        <div class="col-3">
+
+        <div class="col-5" id="decadentslogan">
             <!--I want h3, p and button to be a small div that is left justified-->
-            <h3>Fresh.Flavorful.Delivered.</h3>
+            <h2 class="slogan">Fresh.Flavorful.Delivered.</h2>
                 <p>Decadent Rolls is here to brighten your day with fresh, flavorful goodness that reminds you of home.  Enjoy them for breakfast, lunch or dinner.</p>               
         </div>
         <div class="row">
@@ -104,7 +104,7 @@
             <img class="fluid" src="img/betterbirthday.jpg" alt="birthday sprinkles" width="111" height="auto" />
             <img class="fluid" src="img/betteroreo.jpg" alt="oreo roll" width="111" height="auto" />
             <img class="fluid" src="img/goodcookiemonster.jpg" alt="cookie monster roll" width="111" height="auto" />
-       </div> 
+       </div
     </div>
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
          <!-- build:js js/main.js -->
