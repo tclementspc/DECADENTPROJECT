@@ -20,13 +20,23 @@ header {
     color: #f06e9c;
     padding-bottom: 100px;
 }
+#cake {
+    color: yellow;
+}
+#sale {
+    color: #f06e9c;
+}
 #return {
+    color: white;
+}
+#foot {
     color: white;
 }
 
 .birthday {
     color: #f06e9c;
     text-align: center;
+    padding-top: 30px;
 }
 .heart {
     padding-bottom: 10px;
