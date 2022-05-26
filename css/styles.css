@@ -1,5 +1,15 @@
+body {
+    background-color: #3d131f;
+}
+.discount {
+    color: white;
+    text-align: center;
+}
+h6 {
+    color: white;
+}
 
-.navbar-dark {
+.navbar-dark { 
     color: white;
     font-family: "Source Sans Pro", sans serif;
     font-size: 16px;
@@ -8,7 +18,11 @@
 header {
     color: #f06e9c;
     padding-bottom: 100px;
+}
 
+.birthday {
+    color: #f06e9c;
+    text-align: center;
 }
 #motto {
     color: #f06e9c;
@@ -18,7 +32,7 @@ header {
     color: white;
     background-color: #f06e9c;
     font-style: Source Sans Pro, sans serif;
-    font-size: 16px;
+    /* font-size: 14px; */
 }
 #homeImages {
     background-color: #3d131f;
@@ -78,7 +92,7 @@ p {
     font-size: 16px;
 }
 .carouselCaption {
-    color: white;
+    color: green;
 }
 .carouselSlide {
     background-color: #3d131f;
@@ -104,9 +118,10 @@ header {
     color:#f06e9c
 }
 h3 {
-    font-family: Sansita Swashed, Sansita, sans serif;
-    color: #f06e9c;
-    font-size: 36px;
+    font-family: Lato, sans serif;
+    color: green;
+    font-size: 25px;
+    font-weight:200px;
 }
 #shopPhotos {
     padding-right: 8px;
@@ -118,13 +133,13 @@ h3 {
     font-size: 18px;
 }
 .inputBox {
-    color: 3d131f;
+    color: #3d131f;
     font-family: Source Sans Pro;
     font-size: 18px;
 }
 span {
     font-family: Lato, sans serif;
-    font-size: 40px;
+    /* font-size: 14px; */
     color: #f06e9c;
 }
 .home-images {
@@ -136,29 +151,43 @@ span {
 .title {
     color: white;
     font-style: Lustria;
-    background-color:#3d131f;
-} 
-.carousel-caption {
-    color:#f06e9c;
+       background-color:#3d131f;
 }
+h5 {
+    color: #f06e9c;;
+}
+.products {
+    color:  #f06e9c;
+} 
+#social {
+    color: #f06e9c;
+}
+
+
 .left-div {
     float: left;
 }
 .right-div {
         float: left;
 }
+.list-unstyled {
+    color: white;
+}
+#return {
+    color: white;
+}
 
 .div-example {
-    width: 50px;
+    width: 300px;
     display: inline-block;
 }
 .image-title {
-    width: 50px;
+    width: 300px;
     display: inlne-block;
     justify-content: center;
 }
 .thumbnail {
-    width: 50px;
+    width: 300px;
     display: block;
     vertical-align: text-bottom;
 }
