@@ -251,14 +251,14 @@ h5 {
 }
 .img-fluid {
     max-width: 100%;
-    height: auto;
+    height: 165px;
 } 
 h3 {
     font-style: Ledger, sans serif;
-    color: f06e9c;
+    color: #f06e9c;
 } 
 .addtocart {
-    color: f06e9c;
+    color: #f06e9c;
     display:block;
     padding:0.5em 1em 0.5em 1em;
     border-radius:100px;
