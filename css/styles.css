@@ -9,6 +9,12 @@ h6 {
     color: white;
     padding-bottom: 20px;
 }
+#email {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    font-weight: bold;
+    margin-left: 450px;
+}
 
 .navbar-dark { 
     color: white;
@@ -42,10 +48,12 @@ header {
     padding-bottom: 10px;
     padding-top: 15px;
 }
+#subscribe {
+    margin-bottom: 40px;
+}
 #motto {
     color: #f06e9c;
-    padding-bottom: 60px;]
-    
+    padding-bottom: 60px;    
 }
 #firstpic {
     padding-top: 40px;
@@ -128,7 +136,8 @@ header {
 }
 #submitShopbtn {
     background-color: #f06e9c;
-    color: 3d131f;
+    color: white;
+    font-weight: bold;
 }
 #inputShopbtn {
     background-color: red; 
@@ -139,6 +148,16 @@ header {
     margin-top: 100px;
     color:#f06e9c
 }
+#searchShopbtn {
+    font-weight: bold;
+    background-color: white;
+    color: #55071d;
+}
+#search {
+    color: white;
+}
+
+
 h3 {
     font-family: Lato, sans serif;
     color: green;
@@ -150,9 +169,12 @@ h3 {
 }
 #browseButton {
     padding: white;
-    color: f06e9c;
+    color: black;
     font-family: Source Sans Pro, sans serif;
     font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
 }
 .inputBox {
     color: #3d131f;
@@ -163,7 +185,7 @@ span {
     font-family: Lato, sans serif;
     /* font-size: 14px; */
     color: #f06e9c;
-    padding-top: 70px;
+    padding-top: 90px;
 }
 .home-images {
     max-width: 100%;
@@ -182,6 +204,8 @@ h5 {
 }
 .products {
     color:  #f06e9c;
+    padding-bottom: 30px;
+    padding-top: 30px;
 } 
 #social {
     color: #f06e9c;
@@ -215,12 +239,58 @@ h5 {
     display: block;
     vertical-align: text-bottom;
 }
-.slogan {
+#slogan {
     color: #f06e9c;
+    font-style: Sansita;
 }
 #decadentslogan {
     padding-top: 30px;
 }
 #birthdayicon {
     padding-top: 20px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+} 
+h3 {
+    font-style: Ledger, sans serif;
+    color: f06e9c;
+} 
+.addtocart {
+    color: f06e9c;
+    display:block;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius:100px;
+    border:none;
+    font-size:2em;
+    position:relative;
+    cursor:pointer;
+    height:2em;
+    width:10em;
+    overflow:hidden;
+    transition:transform 0.1s;
+    z-index:1; 
+}
+#example-email {
+    margin-left: 430px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 3px;
+}  
+#guarantee {
+    font-size: 20px;
+}
+#join {
+    font-weight:bold;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buy {
+    color:#f06e9c;
+    margin-top: 10px;
+    margin-bottom:30px;
+    font-style: Lato, sans serif;
 }
