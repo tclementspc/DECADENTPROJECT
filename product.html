@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+<link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css”>
 
 <link rel="stylesheet" href="css/styles.css" />
  <!-- endbuild -->
@@ -47,32 +48,70 @@
 
     
         <!--When the user clicks on the picture, I want the picture to load to the right container along with the price. The default image will be the original cinnamon roll-->
-        <div class="buy">
+        <div class="buy text-center">
             <h1>PRODUCTS</h1>
         </div>
-                <img class="fluid" src="img/BestCinnamonRolls.jpg" alt="original cinnamon roll" width="165" height="auto" />
+    <div class="container">
+        <div class="col">
+            <div class="media">
+                <img class="d-flex mr-6 img-thumbnail" src="img/BestCinnamonRolls.jpg" alt="original cinnamon roll" width="165" height="auto" /> />
+                <div class="media-body align-self-center">
+                    <h3>Original Cinnamon Roll</h3>
+                    <p class="d-none d-sm-block">$30 per dozen/$15 per half dozen</p>
+                    <button type="button" class="btn btn-warning btn-sm">Add to Cart </button>
+                </div>
             </div>
-            <div>
-                <img class="fluid" src="img/betterbirthday.jpg" alt="birthday sprinkles" width="165" height="auto" />
-            </div>
-            <div>
-                <img class="fluid" src="img/betterredvelvet.jpg" alt="red velvet roll" width="165" height="auto" />
-            </div>
-            <div>
-                <img class="fluid" src="img/goodcookiemonster.jpeg" alt="cookie monster" width="165" height="auto" />
-            </div>
-            <div>
-                <img class="fluid" src="img/betteroreo.jpg" alt="oreo roll" width="165" height="auto" />
-            </div>
-           
+        </div>
 
-                <h3>Original Cinnamon Roll</h3>
-                    <h5>$30/dozen</h5>
+        <div class="col">
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail" src="img/betterbirthday.jpg" alt="birthday sprinkles" width="165" height="auto" />
+                    <div class="media-body align-self-center">
+                        <h3>Birthday Sprinkles Roll</h3>
+                            <p class="d-none d-sm-block">$35 per dozen/$17.50 per half dozen</p>
+                            <button type="button" class="btn btn-warning btn-sm">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail" src="img/betterredvelvet.jpg" alt="red velvet roll" width="165" height="auto" />
+                    <div class="media-body align-self-center">
+                        <h3>Red Velvet Roll</h3>
+                        <p class="d-none d-sm-block">$33 per dozen/$16.50 per half dozen</p>
+                        <button type="button" class="btn btn-warning btn-sm">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="container">  
+        <div class="col">
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail" src="img/goodcookiemonster.jpeg" alt="cookie monster" width="165" height="auto" />
+                    <div class="media-body align-self-center">
+                        <h3>Cookie Monster Roll</h3>
+                            <p class="d-none d-sm-block">$33 per dozen/$16.50 per half dozen</p>
+                            <button type="button" class="btn btn-warning btn-sm">Add to Cart </button>
+                    </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail" src="img/bestoreo.jpg" alt="oreo roll" width="165" height="auto" />
+                    <div class="media-body align-self-center">
+                        <h3>Oreo Roll</h3>
+                            <p class="d-none d-sm-block">$33 per dozen/$16.50 per half dozen</p>
+                            <button type="button" class="btn btn-warning btn-sm">Add to Cart </button>
+                    </div>    
+            </div>
+        </div>
+    </div>       
+        <div container>
                 <form>
-                    <div class="row form-group">
-                        <label class="col-sm-4 col-form-label" for="Orders">Select Amount</label>
-                        <select class="form-control col-sm-4">
-                            <option selected>Select...</option>
+                    <div class="row form-group" id="select">
+                        <label class="col-3 col-form-label" for="Orders" id="selection">Select Amount</label>
+                        <select class="form-control col-3">
+                            <option selected><strong>Select</strong>...</option>
                             <option>1/2</option>
                             <option>1</option>
                             <option>2</option>
@@ -84,21 +123,10 @@
                             <option>9</option>
                             <option>10</option>
                         </select>
-                    </div>
-                    <div>  
-                        <!--ADD TO CART BUTTON  -->  
-                        <button class="addtocart">
-                            <div class="pretext">
-                              <i class="fa fa-cart"></i> ADD TO CART
-                            </div>
-                            <div class="pretext done">
-                            <div class="posttext"><i class="fa fa-check"></i> ADDED</div>
-                            </div>
-                        </button>
-                    </div>    
+                    </div> 
                 </form>
-            </div>
-        </div>
+        </div>             
+                      
 
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
          <!-- build:js js/main.js -->
@@ -106,6 +134,8 @@
          <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
          <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
          <script src="js/scripts.js"></script>
+         <script src=”https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js”></script>
+         <script src=”https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js”> </script>
           <!-- endbuild --> 
    <!--- <script>
         //--ADD TO CART BUTTON-->
@@ -113,5 +143,5 @@
       //  <script type="text/javascript"> window. onload = function () { $('form.custom-add2cart'). each(function () { var form = $(this)
   //--  </script>
     
-</body>
+    </body>
 </html>

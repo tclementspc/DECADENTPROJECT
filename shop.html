@@ -82,30 +82,44 @@
         <h2>Birthday Club</h2>
     </div>
     <!--input email and click join button to receive e-coupon discount. Join button will only activate when you enter a valid email address-->
-
-        <input type="email" id="email" size="35" placeholder="Enter your email for birthday discounts" required>
+    <div class="container">
+        <div class="row" id="emails">
+            <input type="email" id="email" size="35" placeholder="Enter your email for birthday discounts" required>
         
-        <button type="button" class="btn btn-warning" id="join">Join</button>
-
-        <div class="col-sm-3" id="decadentslogan">
+            <button type="button" class="btn btn-warning" id="join">Join</button>
+        </div>
+    </div>        
+    <div class="container">
+        <div class="row">
+            <div class="col" id="decadentslogan">
             <!--I want h3, p and button to be a small div that is left justified-->
-            <h2 id="slogan">Fresh. Flavorful. Delivered.</h2>
-                <p>Decadent Rolls is here to brighten your day with fresh, flavorful goodness that reminds you of home.  Enjoy them for breakfast, lunch or dinner.</p>               
-        </div>
-        <div class="col-sm-3">
-            <button type="button" class="btn btn-warning" id="browseButton" class="text-center"><strong>Browse All</strong></button> 
+                <h2 id="slogan">Fresh. Flavorful. Delivered.</h2>
+                <div class="row">
+                    <p class="col-8">Decadent Rolls is here to brighten your day with fresh, flavorful goodness that reminds you of home.  Enjoy them for breakfast, lunch or dinner.</p>               
+                </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-warning" id="browseButton" class="text-center"><strong>Browse All</strong></button> 
             <!--I want the browse button to go back to the shop page showing pics of all the rolls-->
+            </div>
         </div>
-    </div>               
-        <div class="images">
+    </div>     
+    <div container>
+        <div class="row" id="pictures">              
+            <div class="col">
             <!--I want to put images with text desciptions to the right of each image-->
-            <img class="fluid" src="img/BestCinnamonRolls.jpg" alt="cinnamon roll" width="165" height="auto" />
-            <img class="fluid" src="img/Bestredvelvet.jpg" alt="red velvet roll" width="165" height="auto" />
-            <img class="fluid" src="img/betterbirthday.jpg" alt="birthday sprinkles" width="165" height="auto" />
-            <img class="fluid" src="img/betteroreo.jpg" alt="oreo roll" width="165" height="auto" />
-            <img class="fluid" src="img/newcookiemonstercookies.jpg" alt="cookie monster" width="165" height="auto" />
+                <img class="fluid" src="img/BestCinnamonRolls.jpg" alt="cinnamon roll" width="165" height="auto" />
+                <img class="fluid" src="img/redvelvet.jpg" alt="red velvet roll" width="165" height="auto" />
+                <img class="fluid" src="img/betterbirthday.jpg" alt="birthday sprinkles" width="165" height="auto" />
+            </div>
         </div>
-    
+        <div class="row">
+            <div class="col">    
+                <img class="fluid" src="img/bestoreo.jpg" alt="oreo roll" width="165" height="auto" />
+                <img class="fluid" src="img/goodcookiemonster.jpeg" alt="cookie monster" width="165" height="auto" />
+            </div>
+        </div>    
+    </div>
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
          <!-- build:js js/main.js -->
          <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
