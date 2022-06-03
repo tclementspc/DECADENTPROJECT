@@ -317,3 +317,9 @@ h3 {
     margin-top: 30px;
     margin-left:20px;
 }
+.container {
+    display:inline-block;
+}
+#second {
+    margin-top: 100px;
+}
